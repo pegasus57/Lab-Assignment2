@@ -1,0 +1,501 @@
+fileFormatVersion: 2
+guid: 6bc5fd31bd8b97c4e82fc42cf880ada2
+timeCreated: 1456699746
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: running_sprite_by_alt01414sak_0
+    21300002: running_sprite_by_alt01414sak_1
+    21300004: running_sprite_by_alt01414sak_2
+    21300006: running_sprite_by_alt01414sak_3
+    21300008: running_sprite_by_alt01414sak_4
+    21300010: running_sprite_by_alt01414sak_5
+    21300012: running_sprite_by_alt01414sak_6
+    21300014: running_sprite_by_alt01414sak_7
+    21300016: running_sprite_by_alt01414sak_8
+    21300018: running_sprite_by_alt01414sak_9
+    21300020: running_sprite_by_alt01414sak_10
+    21300022: running_sprite_by_alt01414sak_11
+    21300024: running_sprite_by_alt01414sak_12
+    21300026: running_sprite_by_alt01414sak_13
+    21300028: running_sprite_by_alt01414sak_14
+    21300030: running_sprite_by_alt01414sak_15
+    21300032: running_sprite_by_alt01414sak_16
+    21300034: running_sprite_by_alt01414sak_17
+    21300036: running_sprite_by_alt01414sak_18
+    21300038: running_sprite_by_alt01414sak_19
+    21300040: running_sprite_by_alt01414sak_20
+    21300042: running_sprite_by_alt01414sak_21
+    21300044: running_sprite_by_alt01414sak_22
+    21300046: running_sprite_by_alt01414sak_23
+    21300048: running_sprite_by_alt01414sak_24
+    21300050: running_sprite_by_alt01414sak_25
+    21300052: running_sprite_by_alt01414sak_26
+    21300054: running_sprite_by_alt01414sak_27
+    21300056: running_sprite_by_alt01414sak_28
+    21300058: running_sprite_by_alt01414sak_29
+    21300060: running_sprite_by_alt01414sak_30
+    21300062: running_sprite_by_alt01414sak_31
+    21300064: running_sprite_by_alt01414sak_32
+    21300066: running_sprite_by_alt01414sak_33
+    21300068: running_sprite_by_alt01414sak_34
+    21300070: running_sprite_by_alt01414sak_35
+    21300072: running_sprite_by_alt01414sak_36
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 1
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: running_sprite_by_alt01414sak_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 133
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: running_sprite_by_alt01414sak_1
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 133
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: running_sprite_by_alt01414sak_2
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 131
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: running_sprite_by_alt01414sak_3
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 133
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: running_sprite_by_alt01414sak_4
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 133
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: running_sprite_by_alt01414sak_5
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 133
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: running_sprite_by_alt01414sak_6
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 131
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: running_sprite_by_alt01414sak_7
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 133
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: running_sprite_by_alt01414sak_8
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 96
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: running_sprite_by_alt01414sak_9
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 96
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: running_sprite_by_alt01414sak_10
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 94
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: running_sprite_by_alt01414sak_11
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 96
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: running_sprite_by_alt01414sak_12
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 96
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: running_sprite_by_alt01414sak_13
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 96
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: running_sprite_by_alt01414sak_14
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 94
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: running_sprite_by_alt01414sak_15
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 96
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: running_sprite_by_alt01414sak_16
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 60
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: running_sprite_by_alt01414sak_17
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 58
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: running_sprite_by_alt01414sak_18
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 60
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: running_sprite_by_alt01414sak_19
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 60
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: running_sprite_by_alt01414sak_20
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 60
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: running_sprite_by_alt01414sak_21
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 58
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: running_sprite_by_alt01414sak_22
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 60
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: running_sprite_by_alt01414sak_23
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 60
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: running_sprite_by_alt01414sak_24
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 23
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: running_sprite_by_alt01414sak_25
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 23
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: running_sprite_by_alt01414sak_26
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 23
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: running_sprite_by_alt01414sak_27
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 23
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: running_sprite_by_alt01414sak_28
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 23
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: running_sprite_by_alt01414sak_29
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 23
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: running_sprite_by_alt01414sak_30
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 23
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: running_sprite_by_alt01414sak_31
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 23
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: running_sprite_by_alt01414sak_32
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 4
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: running_sprite_by_alt01414sak_33
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 4
+        width: 38
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: running_sprite_by_alt01414sak_34
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 5
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: running_sprite_by_alt01414sak_35
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 5
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: running_sprite_by_alt01414sak_36
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 4
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: default
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
