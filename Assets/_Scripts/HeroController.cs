@@ -20,7 +20,8 @@ public class HeroController: MonoBehaviour {
     public float moveForce;
     public float jumpForce;
     public Transform groundCheck;
-
+    public Transform camera;
+    public GameController gameController;
 
 
     // PRIVATE INSTANCE VARIABLES
@@ -31,9 +32,18 @@ public class HeroController: MonoBehaviour {
     private Transform _transform;
     private Rigidbody2D _rigidBody2D;
     private bool _isGrounded;
+    private AudioSource[] _audioSources;
+    private AudioSource _jumpSound;
+    private AudioSource _pickupSound;
+    private AudioSource _DeadSound;
+    private AudioSource _hurtSound;
+
+
+
 
 	// Use this for initialization
 	void Start () {
+        
         // Initialize Public Instance Variables
         this.velocityRange = new VelocityRange(300f, 30000f);
         
@@ -50,13 +60,22 @@ public class HeroController: MonoBehaviour {
         this._facingRight = true;
         ////Set default animation state to "idle"
         //this._animator.SetInteger("AnimState", 0);
+
+
+        // Setup AudioSources
+        this._audioSources = gameObject.GetComponents<AudioSource>();
+        this._jumpSound = this._audioSources[0];
+        this._pickupSound = this._audioSources[1];
+        this._DeadSound = this._audioSources[2];
+        this._hurtSound = this._audioSources[3];
 	
 	}
 	
 	// Update is called once per frame
 	void FixedUpdate () {
-
-
+        Vector3 currentPosition = new Vector3(this._transform.position.x, this._transform.position.y, -10f);
+        this.camera.position = currentPosition;
+        
         this._isGrounded = Physics2D.Linecast(
             this._transform.position,
             this.groundCheck.position,
@@ -125,7 +144,7 @@ public class HeroController: MonoBehaviour {
             {
                 if (absVelY < this.velocityRange.maximum)
                 {
-
+                    this._jumpSound.Play();
                     forceY = this.jumpForce;
                 }
                 
@@ -141,6 +160,40 @@ public class HeroController: MonoBehaviour {
 	}
 
 
+    void OnCollisionEnter2D(Collision2D other)
+    {
+        if (other.gameObject.CompareTag("Torch"))
+        {
+            this._pickupSound.Play();
+            Destroy(other.gameObject);
+            this.gameController.ScoreValue += 10;
+        }
+
+        //if (other.gameObject.CompareTag("End"))
+        //{
+
+        //    this.gameController.GameOverLabel.gameObject.SetActive(false);
+        //    this.player.gameObject.SetActive(false);
+        //}
+
+       
+
+        if (other.gameObject.CompareTag("Enemy"))
+        {
+            this._hurtSound.Play();
+            Destroy(other.gameObject);
+            this.gameController.LivesValue--;
+        }
+
+        if (other.gameObject.CompareTag("Death"))
+        {
+            this._spawn();
+            this._DeadSound.Play();
+            this.gameController.LivesValue--;
+        }
+    }
+
+    //private methods
     private void _flip()
     {
         if (this._facingRight)
@@ -151,6 +204,10 @@ public class HeroController: MonoBehaviour {
         {
             this._transform.localScale = new Vector2(-1, 1);
         }
+    }
+    private void _spawn()
+    {
+        this._transform.position = new Vector3(-125f, 125f, 0);
     }
        
 }
