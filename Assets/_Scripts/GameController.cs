@@ -65,12 +65,12 @@ public class GameController : MonoBehaviour
     ////public EnemyController enemy;
     public Text LivesLabel;
     public Text ScoreLabel;
-    //public Text GameOverLabel;
+    public Text Good;
     //public Text GameOverLabel2;
     //public PlayerController player;
     //public CoinController coin;
-    public Text HighScoreLabel;
-    public Button RestartButton;
+    //public Text HighScoreLabel;
+    //public Button RestartButton;
 
     // Use this for initialization
     void Start()
@@ -96,7 +96,7 @@ public class GameController : MonoBehaviour
         this.LivesValue = 5;
 
 
-        //this.GameOverLabel.gameObject.SetActive(false);
+        //this.Good.gameObject.SetActive(false);
         //this.HighScoreLabel.gameObject.SetActive(false);
         //this.RestartButton.gameObject.SetActive(false);
         

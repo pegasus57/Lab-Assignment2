@@ -1,4 +1,28 @@
-﻿using UnityEngine;
+﻿/*Source file name:Assignment2
+*Author’s name: Rui Yang
+*Last Modified by:Rui Yang
+*Date last Modified:2-29-2016
+*Program description: this script is writen to control the hero, how yhis hero move, and the effects after touching enemys and Torches and dead..
+ *                    Sounds will be played after  touching enemys and Torches and dead.
+ *                    also Lives will -- if hero touches enemies and fall under the ground.
+ *                    after touch a touch , score will ++ and a pickup sound will be played.
+*Revision History:   
+*                  Players and Enermies
+*                  Background 
+*                  Move sprite
+*                  touch effect
+*                  add SoundTrack
+*                  
+*
+*
+*
+*
+*/
+
+
+
+
+using UnityEngine;
 using System.Collections;
 // VELOCITY RANGE UTILITY Class +++++++++++++++++++++++
 [System.Serializable]
@@ -46,8 +70,8 @@ public class HeroController: MonoBehaviour {
         
         // Initialize Public Instance Variables
         this.velocityRange = new VelocityRange(300f, 30000f);
-        
 
+        
        
 
 
@@ -172,7 +196,7 @@ public class HeroController: MonoBehaviour {
         //if (other.gameObject.CompareTag("End"))
         //{
 
-        //    this.gameController.GameOverLabel.gameObject.SetActive(false);
+        //    
         //    this.player.gameObject.SetActive(false);
         //}
 
